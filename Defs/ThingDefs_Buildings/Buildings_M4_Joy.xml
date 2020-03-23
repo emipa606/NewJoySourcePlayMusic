@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>M4_SPiano</defName>
+    <label>straight piano</label>
+    <description>also known as upright piano. This beautiful piece of craftmanship has been the companion of singers for centuries. Key instrument for classical music, blues, jazz and many more music styles.</description>
+    <graphicData>
+     <texPath>Things/Building/Joy/M4_SPiano</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.08,0.3,0.08)</volume>
+
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0.3,0.4,0.4)</rect>
+		<cornerTL>Damage/Corner</cornerTL>
+		<cornerTR>Damage/Corner</cornerTR>
+		<cornerBL>Damage/Corner</cornerBL>
+		<cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+	<fillPercent>0.60</fillPercent>
+	<hasInteractionCell>true</hasInteractionCell>
+	<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	<thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+	
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>15000</WorkToBuild>
+      <Mass>300</Mass>
+      <Flammability>1.0</Flammability>
+	   <Beauty>4</Beauty>
+           <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+	
+    <stuffCategories>
+      <li>Metallic</li>
+    
+	 
+      </stuffCategories>
+    
+	<costStuffCount>100</costStuffCount>
+	    <costList>
+      <WoodLog>50</WoodLog>
+		   <Steel>30</Steel>
+    </costList>
+    <pathCost>70</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+	<designationHotKey>Misc1</designationHotKey>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
+    
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>M4_KaraokeMachine</defName>
+    <label>karaoke machine</label>
+    <description>A screen and microphones to sing along on your favorite tunes. Not suitable for hospital patients.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/M4_KaraokeMachine</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.7, 0.6, 0.7)</volume>
+        <offset>(0,0,-0.15)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+		
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>0.40</fillPercent>
+	<useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+	   <WorkToBuild>6000</WorkToBuild>
+      <Mass>28</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>800</MarketValue>
+       <JoyGainFactor>1.2</JoyGainFactor>
+	    <Cleanliness>-5</Cleanliness>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+       <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <pathCost>70</pathCost>
+    <passability>PassThroughOnly</passability>
+		<thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+		
+    <building>
+    
+      <watchBuildingStandDistanceRange>
+        <min>1</min>
+        <max>3</max>
+      </watchBuildingStandDistanceRange>
+			<watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+    </comps>
+    <tradeTags>
+      <li>Karaoke Machine</li>
+    </tradeTags>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Joy</designationCategory>
+    <researchPrerequisites><li>TubeTelevision</li></researchPrerequisites>
+  	<uiIconScale>0.9</uiIconScale>
+</ThingDef>
+  
+</Defs>

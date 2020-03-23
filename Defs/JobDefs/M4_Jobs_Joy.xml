@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>Humming</defName>
+    <driverClass>JobDriver_RelaxAlone</driverClass>
+    <reportString>humming, practicing own voice.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyGainRate>1</joyGainRate>
+		 <joySkill>Artistic</joySkill>
+    <joyXpPerTick>0.003</joyXpPerTick>
+	 <joyKind>Meditative</joyKind>
+  </JobDef>
+  
+    <JobDef>
+    <defName>PlayPiano</defName>
+    <driverClass>JobDriver_WatchBuilding</driverClass>
+    <reportString>hit the ivories, press the pedals or just sit back and enjoy the melody.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>2</joyMaxParticipants>
+    <joyGainRate>1.3</joyGainRate>
+	 <joySkill>Artistic</joySkill>
+    <joyXpPerTick>0.005</joyXpPerTick>
+    <joyKind>Social</joyKind>
+    </JobDef>
+  
+  <JobDef>
+    <defName>SingKaraoke</defName>
+    <driverClass>JobDriver_WatchBuilding</driverClass>
+    <reportString>going wild on the Rim's favorite hits!</reportString>
+    <joyDuration>6000</joyDuration>
+    <joyMaxParticipants>3</joyMaxParticipants>
+    <joyGainRate>1.2</joyGainRate>
+	 <joySkill>Social</joySkill>
+    <joyXpPerTick>0.004</joyXpPerTick>
+    <joyKind>Television</joyKind>
+    </JobDef>
+  
+</Defs>
