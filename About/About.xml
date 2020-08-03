@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>New Joy Source: Play Music (Continued)</name>
-  	<packageId>Mlie.NewJoySourcePlayMusic</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/NewJoySourcePlayMusic</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Morbleues mod for RimWorld 1.1
+  <name>New Joy Source: Play Music (Continued)</name>
+  <packageId>Mlie.NewJoySourcePlayMusic</packageId>
+  <author>Mlie</author>
+  <url>https://github.com/emipa606/NewJoySourcePlayMusic</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of Morbleues mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1533909405
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
