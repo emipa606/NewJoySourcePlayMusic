@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>Humming</defName>
+    <giverClass>JoyGiver_InPrivateRoom</giverClass>
+    <baseChance>2</baseChance>
+    <jobDef>Humming</jobDef>
+    <joyKind>Meditative</joyKind>
+    <requiredCapacities>
+      <li>Breathing</li>
+    </requiredCapacities>
+    <canDoWhileInBed>true</canDoWhileInBed>
+  </JoyGiverDef>
+  <JoyGiverDef>
+    <defName>PlayPiano</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>2.3</baseChance>
+    <thingDefs>
+      <li>M4_SPiano</li>
+    </thingDefs>
+    <jobDef>PlayPiano</jobDef>
+    <desireSit>true</desireSit>
+    <joyKind>Social</joyKind>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <JoyGiverDef>
+    <defName>SingKaraoke</defName>
+    <giverClass>JoyGiver_WatchBuilding</giverClass>
+    <baseChance>4</baseChance>
+    <thingDefs>
+      <li>M4_KaraokeMachine</li>
+    </thingDefs>
+    <jobDef>SingKaraoke</jobDef>
+    <desireSit>false</desireSit>
+    <joyKind>Television</joyKind>
+    <requiredCapacities>
+      <li>Breathing</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>
