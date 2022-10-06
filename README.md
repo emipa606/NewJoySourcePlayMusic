@@ -1,23 +1,14 @@
 # NewJoySourcePlayMusic
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Morbleues mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1533909405
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/NewJoySourcePlayMusic]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Finally, music for the soul for b19 and v1! Works using depreciated syntax on 1.1. Will not be updated for 1.1 see below in comments if you want to know why.
@@ -27,11 +18,11 @@ This humble mod adds three music joys to the game while training social or artis
 2- Playing the piano while sitting next to the instrument. 
 3- Singing tunes on the karaoke machine. Needs power supply.
 
-There are small XP gain in Artistic for humming and playing the piano while karaoke trains social. The xp gains are in line with similar items in the vanilla version (ex horseshoe, billiard). Also, the karaoke machine is attached to the &quot;Tube Television&quot; tech. Karaoke machine is unsuitable for an hospital.
+There are small XP gain in Artistic for humming and playing the piano while karaoke trains social. The xp gains are in line with similar items in the vanilla version (ex horseshoe, billiard). Also, the karaoke machine is attached to the "Tube Television" tech. Karaoke machine is unsuitable for an hospital.
 
 The joy is of meditative (humming), social (piano) and passive (karaoke) types. I did not create a custom joy source as I felt it could create compatibility issues and was not needed.
 
-In my mind this a very balanced addition to the game. This mod will make your recreation room more cozy and the &quot;Tube Television&quot; tech more desireable to unlock.
+In my mind this a very balanced addition to the game. This mod will make your recreation room more cozy and the "Tube Television" tech more desireable to unlock.
 
 Currently works on beta 19 and on v1. I made a large playtest with many mods on v1 and did not face any issues. Should you have any issues, please post with steps to reproduce, and I ll look into it.
 
@@ -40,7 +31,7 @@ I am currently not actively on Steam and not playing much. But I still maintain 
 Thanks! Enjoy!
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -50,6 +41,7 @@ Thanks! Enjoy!
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
