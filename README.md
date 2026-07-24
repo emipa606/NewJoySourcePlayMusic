@@ -1,13 +1,13 @@
 # [New Joy Source: Play Music (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2032918797)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Morbleues mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1533909405
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Finally, music for the soul for b19 and v1! Works using depreciated syntax on 1.1. Will not be updated for 1.1 see below in comments if you want to know why.
 
@@ -29,13 +29,13 @@ I am currently not actively on Steam and not playing much. But I still maintain 
 Thanks! Enjoy!
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -43,4 +43,4 @@ Thanks! Enjoy!
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/NewJoySourcePlayMusic?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2032918797) | tags:  recreation,  joy, music
+[![Image](https://img.shields.io/github/v/release/emipa606/NewJoySourcePlayMusic?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2032918797) | tags: joy, recreation, music
